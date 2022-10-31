@@ -50,7 +50,23 @@ def add_my_values():
 
     else:
         print('leave it! ')
+        
+def multiply_my_values():
+    make = False
+    x = box.get()
+    for i in x:
+        if '-' in i:
+            make = True
+    if make:
+        print('alright')
+        a = ''
+        for i in x:   
+            if x == int():
+                a *= x
+        print(a)
 
+    else:
+        print('leave it! ')
 
 box  = Entry(root, width="50" , font = ('calibri',40,'bold'))
 box.pack()
